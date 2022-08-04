@@ -1,0 +1,182 @@
+<!Doctype html>
+<head>
+<html lang="en">
+<meta charset="utf-8">
+    <title>
+        Davis Barnet Builder
+    </title>
+	<link rel="stylesheet" href="css/style.css" />
+<link href='http://fonts.googleapis.com/css?family=Engagement' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.uniform.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(function(){
+        $("input:checkbox, input:radio, input:file, select").uniform();
+      });
+    </script>
+	<style>
+	mark { 
+    background-color: white;
+    color: black;
+}
+	#logo{
+		opacity: 0.8;
+		filter: alpha(opacity=80)
+		}
+	body{
+		background-image:url("img1.jpg");
+		background-size:cover;
+		background-position: absolute;
+		font-family: Century Gothic;
+		font-size: 20px;
+		}	
+        #nav1{
+			width: 500px;
+            float: left;
+            padding-left: 20px;
+			padding-right: 100px;
+        }
+        #nav2{
+			width: 500px;
+            float: right;
+            padding-right: 80px;
+			padding-top: 0px;
+		}
+        #menu {
+            height: 1400px;
+            font-size: 20px;
+            font-family: Tahoma, Geneva, sans-serif;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 0px;
+			padding-top: 20px;
+
+        }
+        #menu ul {
+            height: auto;
+            padding: 8px 0px;
+            margin: 0px;
+        }
+        #menu li { 
+            display: inline; 
+            padding: 20px; 
+        }
+        #menu a {
+            text-decoration: none;
+            color: #000000;
+            padding: 25px 25px 25px 25px;
+        }
+        #menu a:hover {
+            color: #5C2E00;
+            background-color: #FFF;
+            height: 10px;
+			font-size: 20px;
+        }
+		 .container {
+		 	width: 100%;
+			height: 90px;
+			margin: 0;
+			background-color: rgba(255,255,255,0.5);
+		}
+		h1 {
+			color: #000000;
+			font-family:Century Gothic;
+			font-size:300%;
+		}
+		p {
+			font-size: 14px;
+			font-family: Century Gothic;
+		}
+
+
+    </style>
+</head>
+<body>
+ <div id="menu" class="container">
+
+	<center>
+<form id="logo">
+<img src="logo.png" height='120' width='150'>
+</form>
+	<h3 style="font-family: century Goothic" "font-size:15px">
+	Davis Barnet Builder 
+	</h3><hr>
+	</center>
+   
+<ul>
+<li><a href="index.html"><span>Home</span></a></li>
+<li><a href="whatwedo.html"><span>What Do We Do?</span></a></li>
+<li><a href="ourproject.html"><span>Our Project</span></a></li>
+<li><a href="aboutus.html"><span>About Us</span></a></li>
+<li><a href="contactus.html"><span>Contact Us</span></a></li>
+</ul><hr>
+
+<center>
+<form>
+<input type="button" value="Back" onclick="history.go(-1);return true;" width="50" height="20">
+</form>
+</center>
+    <h1>
+	 Email Us
+    </h1>
+<article>
+<form>
+	<ul>
+        <li>
+        	<label for="name"><mark>Your Name:</mark></label>
+			<pre>
+			</pre>
+            <input type="text" size="40" id="name" />
+        </li>
+		<pre>
+			</pre>
+        <li>
+        	<label for="email"><mark>Your Email:</mark></label>
+			<pre>
+			</pre>
+            <input type="email" size="40" id="email" />
+        </li>
+		<pre>
+			</pre>
+        <li>
+            <label for="answer"><mark>Why are you contacting us?</mark></label>
+			<pre>
+			
+			</pre>
+            <select id="answer">
+                <option>Problems</option>
+                <option>Advice</option>
+                <option>Would like a Quotation?</option>
+                <option>Want to begin a project</option>
+                <option>Other&hellip;</option>
+            </select>
+        </li>
+		<pre>
+			</pre>
+
+        <li>
+        	<label for="message"><mark>Message:</mark></label>
+			<pre>
+			</pre>
+            <textarea cols="50" rows="5" id="message"></textarea>
+		</li>
+		<pre>
+			</pre>
+	</ul>
+    <p>
+        <button type="submit" class="action">Submit</button>
+        <button type="reset" class="right">Reset</button>
+    </p>
+</form>
+</article>
+<center>
+<form>
+<input type="button" value="Back" onclick="history.go(-1);return true;" width="50" height="20">
+</form>
+</center>
+</div>
+</body>
+</html>
